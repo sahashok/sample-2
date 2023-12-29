@@ -1,23 +1,25 @@
 <template>
   <div>
     <h1>Welcome To vue js</h1>
-    <SignUp />
+    <!-- <SignUp /> -->
+    <NavBar />
     <HomeCom />
-    <NewOrbit />
+    <!-- <NewOrbit /> -->
   </div>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 </template>
 
 <script>
 import HomeCom from './components/HomeCom.vue';
-import NewOrbit from './components/NewOrbit.vue';
-import SignUp from './components/SignUp.vue'
+import NavBar from './components/NavBar.vue';
+// import NewOrbit from './components/NewOrbit.vue';
+// import SignUp from './components/SignUp.vue'
 export default {
   name: 'App',
   components:{
-    SignUp,
+    // SignUp,
     HomeCom,
-    NewOrbit,
+    NavBar,
 }
 
 }
