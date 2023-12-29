@@ -1,4 +1,5 @@
 <template>
+  <v-app>
   <div>
     <h1>Welcome To vue js</h1>
     <!-- <SignUp /> -->
@@ -7,6 +8,7 @@
     <!-- <NewOrbit /> -->
   </div>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  </v-app>
 </template>
 
 <script>
