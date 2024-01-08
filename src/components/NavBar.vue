@@ -1,5 +1,5 @@
 <template>
-        <v-app-bar app dark flat class="px-12">
+        <v-app-bar app color="green" dark flat class="px-12">
             <v-btn prepend-icon="mdi-check-circle">
                 <template v-slot:prepend>
                     <v-icon color="yellow"></v-icon>

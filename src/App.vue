@@ -1,7 +1,7 @@
 <template>
   <v-app>
   <div>
-    <h1>Welcome To vue js</h1>
+    <!-- <h1>Welcome To vue js</h1> -->
     <!-- <SignUp /> -->
     <NavBar />
     <HomeCom />
@@ -36,4 +36,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
