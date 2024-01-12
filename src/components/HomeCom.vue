@@ -85,6 +85,9 @@
                     <v-row align="center">
                         <v-col cols="4">
                             <img :src="require('@/assets/Image/asd8.jpg')" width="300px" height="300px" />
+                            <div align="center">
+                                <v-btn icon="mdi-laptop-account" color="green" class="text-white"></v-btn>
+                            </div>
                             <h4 class="text-blue text-h4"><b>Web Design</b></h4>
                             <p class="text-grey">Lorem, Ipsum dolor sit amet<br />
                                 consectetur adipisicing<br />
@@ -92,6 +95,9 @@
                         </v-col>
                         <v-col cols="4">
                             <img :src="require('@/assets/Image/asd8.jpg')" width="300px" height="300px" />
+                            <div align="center">
+                                <v-btn icon="mdi-application" color="green" class="text-white"></v-btn>
+                            </div>
                             <h4 class="text-blue text-h4"><b>App Design</b></h4>
                             <p class="text-grey">Lorem, Ipsum dolor sit amet<br />
                                 consectetur adipisicing<br />
@@ -99,6 +105,9 @@
                         </v-col>
                         <v-col cols="4">
                             <img :src="require('@/assets/Image/asd8.jpg')" width="300px" height="300px" />
+                            <div align="center">
+                                <v-btn icon="mdi-camera-party-mode" color="green" class="text-white"></v-btn>
+                            </div>
                             <h4 class="text-blue text-h4"><b>Photography</b></h4>
                             <p class="text-grey">Lorem, Ipsum dolor sit amet<br />
                                 consectetur adipisicing<br />
@@ -148,9 +157,9 @@
                             <v-icon color="green text-h3">mdi-account-child-circle</v-icon>
                             <h3 class="text-black">We provide you the best</h3>
                             <h4 class="text-grey">By AAE EdeaPro 106 Sep 2020</h4>
-                            <p class="text-black"> 
-                                Lorem ipsum dolor sit amet consectetur<br/>
-                                adipisicing elit Sit tem saepe sapiente<br/>
+                            <p class="text-black">
+                                Lorem ipsum dolor sit amet consectetur<br />
+                                adipisicing elit Sit tem saepe sapiente<br />
                                 deleniti. odio non laborum fuga.
                             </p>
                         </v-card>
@@ -161,9 +170,9 @@
                             <v-icon color="green text-h3">mdi-account-child-circle</v-icon>
                             <h3 class="text-black">We provide you the best</h3>
                             <h4 class="text-grey">By AAE EdeaPro 106 Sep 2020</h4>
-                            <p class="text-black"> 
-                                Lorem ipsum dolor sit amet consectetur<br/>
-                                adipisicing elit Sit tem saepe sapiente<br/>
+                            <p class="text-black">
+                                Lorem ipsum dolor sit amet consectetur<br />
+                                adipisicing elit Sit tem saepe sapiente<br />
                                 deleniti. odio non laborum fuga.
                             </p>
                         </v-card>
@@ -174,9 +183,9 @@
                             <v-icon color="green text-h3">mdi-account-child-circle</v-icon>
                             <h3 class="text-black">We provide you the best</h3>
                             <h4 class="text-grey">By AAE EdeaPro 106 Sep 2020</h4>
-                            <p class="text-black"> 
-                                Lorem ipsum dolor sit amet consectetur<br/>
-                                adipisicing elit Sit tem saepe sapiente<br/>
+                            <p class="text-black">
+                                Lorem ipsum dolor sit amet consectetur<br />
+                                adipisicing elit Sit tem saepe sapiente<br />
                                 deleniti. odio non laborum fuga.
                             </p>
                         </v-card>
@@ -187,6 +196,76 @@
                         <v-btn color="yellow">SUBMIT NOW</v-btn>
                     </v-col>
                 </v-row>
+                <v-row>
+                    <v-col cols="6">
+                        <h4 class="text-green text-h4">Hre me for your awesome project</h4>
+                        <p class="text-grey">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit itaque, eaque<br />
+                            molestiae delenitl earum voluptate eos id dicta at, blanditils.
+                        </p>
+                    </v-col>
+                    <v-col cols="6">
+                        <v-btn color="yellow">HIRE ME</v-btn>
+                    </v-col>
+                </v-row>
+                <v-row>
+                    <v-col cols="3">
+                        <h4 class="text-green">Contact info.</h4>
+                        <v-icon color="blue text-h3">mdi-map-marker-circle</v-icon>
+                        <h4 class="text-grey">Your Street SYO. Your Area Dream</h4>
+                        <h4 class="text-green">Contact info.</h4>
+                        <v-btn density="compact" width="20%" height="20%" color="blue" icon="mdi-phone"></v-btn>
+                        <h4 class="text-green">00235 . 6521 </h4>
+                        <h4 class="text-green">00235 . 6521 </h4>
+                        <v-btn density="compact" width="20%" height="20%" color="blue" icon="mdi-email"></v-btn>
+                        <h4 class="text-green">aaeldeapro@gmail.com </h4>
+                        <h4 class="text-green">aaeldeapro@gmail.com</h4>
+                    </v-col>
+                    <v-col cols="9" align="left">
+                        <h4 class="text-green text-h4">Send your message</h4>
+                        <p class="text-grey">
+                            Locem ipsum dolor sit amet consectetur adipisicing eat sunt fugiat officis. odio eadue
+                            exercfatonem libeio netcivnt piaceat <br />
+                            repecat obcaecati sed tenetgit Est tabore asquam amet consequatut necessitatibus fugut obcaecati
+                            facinst.
+                        </p>
+                        <v-sheet width="700" class="mx-auto">
+                            <v-form fast-fail @submit.prevent>
+                                <v-text-field v-model="firstName" label="First name" :rules="firstNameRules"></v-text-field>
+
+                                <v-text-field v-model="lastName" label="Last name" :rules="lastNameRules"></v-text-field>
+
+                                <v-text-field v-model="Address" label="Address" :rules="AddressRules"></v-text-field>
+
+                                <v-btn type="submit" block class="mt-2">Submit</v-btn>
+                            </v-form>
+                        </v-sheet>
+                    </v-col>
+                </v-row>
+                <v-row>
+                    <v-col>
+                        <v-btn color="yellow">SUBMIT NOW</v-btn>
+                    </v-col>
+                    <!-- <v-card width="100%" color="black"></v-card> -->           
+                </v-row>
+                <v-row>
+                    <v-col cols="12">
+                        <v-footer class="d-flex flex-column">
+                        <div class="bg-teal d-flex w-100 align-center px-4">
+                            <strong>Get connected with us on social networks!</strong>
+
+                            <v-spacer></v-spacer>
+
+                            <v-btn v-for="icon in icons" :key="icon" class="mx-4" :icon="icon" variant="plain"
+                                size="small"></v-btn>
+                        </div>
+
+                        <div class="px-4 py-2 bg-black text-center w-100">
+                            {{ new Date().getFullYear() }} <strong>NEW ORBIT COMPUTER INSTITUTE</strong>
+                        </div>
+                    </v-footer>
+                    </v-col>
+                </v-row>
             </v-container>
         </div>
     </v-app>
@@ -194,7 +273,33 @@
 <script>
 export default {
 
-    name: "HomeCom"
+    name: "HomeCom",
+    data: () => ({
+        firstName: '',
+        firstNameRules: [
+            value => {
+                if (value?.length > 3) return true
+
+                return 'First name must be at least 3 characters.'
+            },
+        ],
+        lastName: '',
+        Address: '',
+        lastNameRules: [
+            value => {
+                if (/[^0-9]/.test(value)) return true
+
+                return 'Last name can not contain digits.'
+            },
+        ],
+        icons: [
+        'mdi-facebook',
+        'mdi-twitter',
+        'mdi-linkedin',
+        'mdi-instagram',
+      ],
+    }),
+
 };
 </script>
 
